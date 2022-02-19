@@ -1,6 +1,6 @@
 **DESCRIBTION**
 -
-A projector is an optical gadget that projects a picture (or moving images) onto a surface, usually a projection screen. It has various communication interfaces and memory interfaces which are used to communicate with devices and transfering data.
+A projector is an optical gadget that projects a picture (or moving images) onto a surface, usually a projection screen. It uses DLP(DIGITAL LIGHT PRECESSING) technology.  It has various communication interfaces and memory interfaces which are used to communicate with devices and transfering data.
 
 **HIGH LEVEL REQUIREMENT**
 -
