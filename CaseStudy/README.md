@@ -40,3 +40,11 @@ Projection technology continues to evolve and develop in resolution, in ease of 
 **THREATS**
 
 The use of mobile phones and laptops may decrease the need of projectors in coming future.
+
+**APPLICATIONS**
+-
+
+1.	 Can be used in schools/offices.
+2.	 Can be use to watch movies or videos.
+3.	 It can be used in engineering field
+
