@@ -1,29 +1,7 @@
 **PASSWORD BASED DEVICE CONTROL**
---
-
-**TABLE OF CONTENT**
---------------------
-1)Abstract 
-
-2)Introduction
-
-   2.1) _Features_
-  
-3)Requirements
-
-   3.1)High level requirement
-   
-   3.2)Low level requirement
-   
-4)S.W.O.T Analysis
-
-5)5W's & 1H
-
-6)Block diagram
-
-7)Circuit design
-
-8)Components
+=================
+Table of Contents
+=================
 
 **ABSTRACT**
 -
