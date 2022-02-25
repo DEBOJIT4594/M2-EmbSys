@@ -1,81 +1,84 @@
 **DESCRIBTION**
 -
-A projector is an optical gadget that projects a picture (or moving images) onto a surface, usually a projection screen. It uses DLP(DIGITAL LIGHT PRECESSING) technology.  It has various communication interfaces and memory interfaces which are used to communicate with devices and transfering data.
+Password based device control is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protech valuable belongings.
 
 **HIGH LEVEL REQUIREMENT**
 -
 |Test ID  |    Description  |  
 -------------|-----------------------------------
-|HL01     |    The projector must project pictures or videos | 
-|HL02     |    The projector must have a slot for memory          |
-|HL03     |    The projector should be able to connect with PCs wirelessly    |
-|HL04     |    The projector must have communication interfaces  |
-|HL05     |    The projector must be able to store information or data |
-|HL06     |    The projector should be controllable using a RF remote Controller |
-|HL07     |    The projector should be able to produce audio |
+|HL01     |    A password shall be provided for our system | 
+|HL02     |    The device shall have a display       |
+|HL03     |    The device shall have a LED   |
+|HL04     |    The device shall have a relay  |
+|HL05     |    The device shall have a relay controller |
+|HL06     |    The device shall have a voltage source |
 
 **LOW LEVEL REQUIREMENT**
 -
 |Test ID   |  Description | 
 ------------------|-------------------
-|LL01     | The projector should have low power consumption |
-|LL02     | The picture or video resolution should be of full hd quality for better view|
-|LL03     | The user can use USB A, USB C, VGA Port, HDMI for communication purpose |
-|LL04     | The projector must not get overheated |
+|LL01     | According to the value of password, the light should be controlled |
+|LL02     | The display shall display if the password is correct or not|
+|LL03     | The voltage source should provide a constant voltage |
 
 **SWOT ANALYSIS**
 -
 __STRENGTHS__
 
-- The projector produces large pictures(static or moving) with full hd resolution which is comfortable to ours eyes. Also uses less power. The projector has many communication interfaces(wired as well as wireless).
+- This device can be use to protect electric or electronic devices with a password.
 
 **WEAKNESSES**
 
-- The projector doesnot run on batteries and runs on main power supply. Thus making it ponderous.  
+- Only one type of password is accepted of combination of 4 numbers. Example - 6754.  
 
 **OPPORTUNITIES**
 
-- Projection technology continues to evolve and develop in resolution, in ease of use, connectivity, brightness. 
+- This can be used in households and in many places especially bank. This can be used for door locking, in vehicles. It is less costly also. 
 
 **THREATS**
 
-- The use of mobile phones and laptops may decrease the need of projectors in coming future.
+- It needs constant voltage. Without this, the device wont work.
 
 
-**4W's & 1H**
+**5W's & 1H**
 -
 
 **WHO**
 
- - This project is purely done by me and whatever happens, I am responsible for that.
+ - This device is purely made for those people who want to password protect any device.
  
  **WHAT**
  
- - Projector is important in offices, schools and in places where there is a large crowd . So, I am building a projector which works on DLP(DIGITAL LIGHT PRECESSING) technology.
+ - This is a device which is use to protect electrical and electronics appliances.
  
  **WHEN**
  
- - This project has been done between 23 of february 2022 and  of february 2022.
+ - This device can be used at anytime untill and unless there is a constant power supply.
  
  **WHERE**
  
- - I have used **SIMULIDE** to simulate all the parts of the projector and I have also used **ARDUINO IDE** for wrint the code.
+ - It can be use in electrical and electronics devices.
+
+**WHY**
+
+- Just to protect electrical and electronics devices.
 
 **HOW**
 
-- I am doing this project using **Embedded C** language. I have used different sensors in this project.
+- Using keypad, this device can be used.
 
 **APPLICATIONS**
 -
 
-1.	 Can be used in schools/offices.
-2.	 Can be use to watch movies or videos.
-3.	 It can be used in engineering field
+1.	 This device can be used to protect electrical and electronic devices such as light, fan, etc.
+2.	 This can be used in  bank to protect lockers.
+3.	 This can be used in cars to lock doors with password.
 
 **BLOCK DIAGRAM OF DLP PROJECTOR**
 -
 
-![PROJECTOR](https://user-images.githubusercontent.com/98827063/154812399-b4138aff-f84c-46e7-8eb8-a29774c7ab43.jpg)
+![PASSWORD PROTECTED](https://user-images.githubusercontent.com/98827063/155761202-bf55b4eb-4ee6-410e-8744-81568326279f.jpg)
+
 
 **COMPONENTS**
 -
@@ -85,56 +88,31 @@ __STRENGTHS__
 _A microcontroller is needed to perform all the important operations so that the projector works fine._
 
 
-**2.	DISCRETE DEVICES**
+**2.	KEYPAD**
 
-_Discrete devices are used to regulate voltages, help lower power consumption, and reduce heat generation._
-
-
-**3.	STORAGE INTERFACES**
-
-_It is basically used to access secondary storage such as SD card or CD._
+_A component which is use to enter numbers._
 
 
-**4.	DMA CONTROLLER**
+**3.	LCD DISPLAY**
 
-_This allows  I/O devices to directly access memory without involving microcontroller._
-
-
-**5.	RF REMOTE CONTROLLER**
-
-_It is a device used to control the projector. This device uses Radio Frequency (RF)._
+_LCD display is used to display the number that we have press and to show if the device has been successfully unlocked or not._
 
 
-**6.	TEMPERATURE SENSOR**
+**4.	LED**
 
-_This is a sensor which is used to sense temperature._
-
-
-**7.	SPI**
-
-_Serial Peripheral Interface (SPI) is used to communicate with PCs wirelessly._
+_LED is a small bulb which has been protected by a password._
 
 
-**8.	COMMUNICATION INTERFACES**
+**5.	RELAY**
 
-_It is used to communicate with other devices for data transfer._
-
-
-**9.	DIGITAL LIGHT PROCESSING(DLP)**
-
-_It is used to produce pictures and videos_
+_It is a electrically operated  switch to controll the device_
 
 
-**10.	AUDIO OUTPUT**
+**6.	VOLTAGE SOURCE**
 
-_It is the sound that comes out from the projector._
-
-
-**11.	EEPROM**
-
-_It is used to store data temporarily._
+_A source which supplies a constant voltage whenever there is power._
 
 
-**12.	HDMI PORT**
+**7.	RELAY DRIVER**
 
-_It is basically used to send high quality audio and video from a computer to the projector._
+_It is used to interfece the bulb._
