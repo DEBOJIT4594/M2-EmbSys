@@ -1,6 +1,19 @@
-**DESCRIBTION**
+**PASSWORD BASED DEVICE CONTROL**
+---
+
+**TABLE OF CONTENT**
 -
-Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protech valuable belongings.
+1) Abstract
+
+2) Introduction
+   2.1) _Features_
+  
+3. 
+
+
+**INTRODUCTION**
+-
+Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protect devices.
 
 **FEATURES**
 -
@@ -76,18 +89,16 @@ __STRENGTHS__
 
 - Using keypad, this lock system can be used.
 
-**APPLICATIONS**
--
 
-1.	 This lock system can be used to protect electrical and electronic devices such as light, fan, etc.
-2.	 This lock system can be used in  bank to protect lockers.
-3.	 This lock system can be used in cars to lock doors with password.
-
-**BLOCK DIAGRAM OF DLP PROJECTOR**
+**BLOCK DIAGRAM**
 -
 
 ![PASSWORD PROTECTED](https://user-images.githubusercontent.com/98827063/155761202-bf55b4eb-4ee6-410e-8744-81568326279f.jpg)
 
+**CIRCUIT DESIGN**
+-
+
+![DESIGN](https://user-images.githubusercontent.com/98827063/155775580-4ed4fc77-7db1-44cd-aefd-8fbdb4f0334e.jpg)
 
 **COMPONENTS**
 -
@@ -125,3 +136,11 @@ _A source which supplies a constant voltage whenever there is power._
 **7.	RELAY DRIVER**
 
 _It is used to interfece the bulb._
+
+**APPLICATIONS**
+-
+
+1.	 This lock system can be used to protect electrical and electronic devices such as light, fan, etc.
+2.	 This lock system can be used in  bank to protect lockers.
+3.	 This lock system can be used in cars to lock doors with password.
+
