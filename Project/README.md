@@ -1,17 +1,19 @@
 **DESCRIBTION**
 -
-Password based device control is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protech valuable belongings.
+Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protech valuable belongings.
+
+**FEATURES**
 
 **HIGH LEVEL REQUIREMENT**
 -
 |Test ID  |    Description  |  
 -------------|-----------------------------------
 |HL01     |    A password shall be provided for our system | 
-|HL02     |    The device shall have a display       |
-|HL03     |    The device shall have a LED   |
-|HL04     |    The device shall have a relay  |
-|HL05     |    The device shall have a relay controller |
-|HL06     |    The device shall have a voltage source |
+|HL02     |    The lock system shall have a display       |
+|HL03     |    The lock system shall have a LED   |
+|HL04     |    The lock system shall have a relay  |
+|HL05     |    The lock system shall have a relay controller |
+|HL06     |    The lock system shall have a voltage source |
 
 **LOW LEVEL REQUIREMENT**
 -
@@ -25,7 +27,7 @@ Password based device control is use to control electric devices as well electro
 -
 __STRENGTHS__
 
-- This device can be use to protect electric or electronic devices with a password.
+- This lock system can be use to protect electric or electronic devices with a password.
 
 **WEAKNESSES**
 
@@ -33,7 +35,7 @@ __STRENGTHS__
 
 **OPPORTUNITIES**
 
-- This can be used in households and in many places especially bank. This can be used for door locking, in vehicles. It is less costly also. 
+- This can be used in households and in many places especially in bank. This can be used for door locking, in vehicles. It is less costly also. 
 
 **THREATS**
 
@@ -45,15 +47,15 @@ __STRENGTHS__
 
 **WHO**
 
- - This device is purely made for those people who want to password protect any device.
+ - This lock system is purely made for those people who want to password protect any device.
  
  **WHAT**
  
- - This is a device which is use to protect electrical and electronics appliances.
+ - This is a lock system which is use to protect electrical and electronics appliances.
  
  **WHEN**
  
- - This device can be used at anytime untill and unless there is a constant power supply.
+ - This lock system can be used at anytime untill and unless there is a constant power supply.
  
  **WHERE**
  
@@ -65,14 +67,14 @@ __STRENGTHS__
 
 **HOW**
 
-- Using keypad, this device can be used.
+- Using keypad, this lock system can be used.
 
 **APPLICATIONS**
 -
 
-1.	 This device can be used to protect electrical and electronic devices such as light, fan, etc.
-2.	 This can be used in  bank to protect lockers.
-3.	 This can be used in cars to lock doors with password.
+1.	 This lock system can be used to protect electrical and electronic devices such as light, fan, etc.
+2.	 This lock system can be used in  bank to protect lockers.
+3.	 This lock system can be used in cars to lock doors with password.
 
 **BLOCK DIAGRAM OF DLP PROJECTOR**
 -
