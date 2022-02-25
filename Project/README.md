@@ -1,18 +1,20 @@
 **PASSWORD BASED DEVICE CONTROL**
-=================
+====================
+
+
 Table of Contents
 =================
 
 **ABSTRACT**
--
+=================
 In todays world, protection of devices is very important. It could be an electrical device or electronic device. There are many ways a device can be protected. Out of which one way is to protect the device with a password. This is the simplest way to protect a device. This devices are much needed now a days. Bank, vehicles, homes, it can be used at different places whenever needed. Its funtionality could be increased by adding gsm modules or any other module or functional components.
 
 **INTRODUCTION**
--
+=================
 Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protect devices.
 
 **FEATURES**
---
+=================
 
 1) The lock system have a LCD display.
 2) It also have a keypad to enter password.
@@ -21,7 +23,7 @@ Password based device control is a lock system is use to control electric device
 5) Easy to use as it is not complicated.
 
 **REQUIREMENTS**
--
+=================
 
 
 **HIGH LEVEL REQUIREMENT**
@@ -44,7 +46,7 @@ Password based device control is a lock system is use to control electric device
 |LL03     | The voltage source should provide a constant voltage |
 
 **SWOT ANALYSIS**
--
+=================
 __STRENGTHS__
 
 - This lock system can be use to protect electric or electronic devices with a password.
@@ -63,7 +65,7 @@ __STRENGTHS__
 
 
 **5W's & 1H**
--
+=================
 
 **WHO**
 
@@ -91,7 +93,7 @@ __STRENGTHS__
 
 
 **ARCHITECTURE**
--
+=================
 
 **BLOCK DIAGRAM**
 -
@@ -141,7 +143,7 @@ _A source which supplies a constant voltage whenever there is power._
 _It is used to interfece the bulb._
 
 **APPLICATIONS**
--
+=================
 
 1.	 This lock system can be used to protect electrical and electronic devices such as light, fan, etc.
 2.	 This lock system can be used in  bank to protect lockers.
