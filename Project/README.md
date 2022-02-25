@@ -3,6 +3,13 @@
 Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protech valuable belongings.
 
 **FEATURES**
+-
+
+1) The lock system have a LCD display.
+2) It also have a keypad to enter password.
+3) A LED is connected as a device to be protected by password.
+4) It runs on external power supply.
+5) Easy to use as it is not complicated.
 
 **HIGH LEVEL REQUIREMENT**
 -
