@@ -1,28 +1,50 @@
 **PASSWORD BASED DEVICE CONTROL**
----
+--
 
 **TABLE OF CONTENT**
--
-1) Abstract
+--------------------
+1)Abstract 
 
-2) Introduction
+2)Introduction
+
    2.1) _Features_
   
-3. 
+3)Requirements
 
+   3.1)High level requirement
+   
+   3.2)Low level requirement
+   
+4)S.W.O.T Analysis
+
+5)5W's & 1H
+
+6)Block diagram
+
+7)Circuit design
+
+8)Components
+
+**ABSTRACT**
+-
+In todays world, protection of devices is very important. It could be an electrical device or electronic device. There are many ways a device can be protected. Out of which one way is to protect the device with a password. This is the simplest way to protect a device. This devices are much needed now a days. Bank, vehicles, homes, it can be used at different places whenever needed. Its funtionality could be increased by adding gsm modules or any other module or functional components.
 
 **INTRODUCTION**
 -
 Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protect devices.
 
 **FEATURES**
--
+--
 
 1) The lock system have a LCD display.
 2) It also have a keypad to enter password.
 3) A LED is connected as a device to be protected by password.
 4) It runs on external power supply.
 5) Easy to use as it is not complicated.
+
+**REQUIREMENTS**
+-
+
 
 **HIGH LEVEL REQUIREMENT**
 -
@@ -89,6 +111,9 @@ __STRENGTHS__
 
 - Using keypad, this lock system can be used.
 
+
+**ARCHITECTURE**
+-
 
 **BLOCK DIAGRAM**
 -
