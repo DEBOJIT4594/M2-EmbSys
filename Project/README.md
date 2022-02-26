@@ -1,10 +1,6 @@
 **PASSWORD BASED DEVICE CONTROL** 
 ====================
 
-
-Table of Contents
-=================
-
 **ABSTRACT**
 --
 In todays world, protection of devices is very important. It could be an electrical device or electronic device. There are many ways a device can be protected. Out of which one way is to protect the device with a password. This is the simplest way to protect a device. This devices are much needed now a days. Bank, vehicles, homes, it can be used at different places whenever needed. Its funtionality could be increased by adding gsm modules or any other module or functional components.
