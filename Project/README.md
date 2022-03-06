@@ -1,14 +1,14 @@
-**PASSWORD BASED DEVICE CONTROL** 
+**AUTOMATIC WATER CONTROLLER** 
 ====================
 
 **ABSTRACT**
 --
-In todays world, protection of devices is very important. It could be an electrical device or electronic device. There are many ways a device can be protected. Out of which one way is to protect the device with a password. This is the simplest way to protect a device. This devices are much needed now a days. Bank, vehicles, homes, it can be used at different places whenever needed. Its funtionality could be increased by adding gsm modules or any other module or functional components.
+Water is very precious for living beings and scarcity of the same is gradually increasing. Most of the cities in the country and that of the world are facing this problem. Hence, it is of utmost importance to preserve and save water. In many houses there exists unnecessary wastage of water due to overflow from overhead tanks etc. **Automatic Water Level Controller** can provide a solution to this problem.
 
 
 **INTRODUCTION**
 --
-Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protect devices.
+The **Automatic Water Level Controller** is a solution to the problem of water scarcity. In this project a microcontroller is used and it is an **Arduino Uno**. The project also consist of various components such as LEDs to indicate if the water is has reached its thresshold 
 
 **FEATURES**
 --
