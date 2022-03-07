@@ -103,8 +103,8 @@ __STRENGTHS__
 
 **CIRCUIT DESIGN**
 
+![autowatcont](https://user-images.githubusercontent.com/98827063/157041623-2d4f0fa5-e0e8-43ac-81dd-9f361ba988d4.jpg)
 
-![DESIGN](https://user-images.githubusercontent.com/98827063/155775580-4ed4fc77-7db1-44cd-aefd-8fbdb4f0334e.jpg)
 
 **COMPONENTS**
 --
