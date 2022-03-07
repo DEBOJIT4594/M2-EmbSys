@@ -1,22 +1,19 @@
 **REQUIREMENTS**
-=================
-
+--
 
 **HIGH LEVEL REQUIREMENT**
--
+
 |Test ID  |    Description  |  
 -------------|-----------------------------------
-|HL01     |    A password shall be provided for our system | 
-|HL02     |    The lock system shall have a display       |
-|HL03     |    The lock system shall have a LED   |
-|HL04     |    The lock system shall have a relay  |
-|HL05     |    The lock system shall have a relay controller |
-|HL06     |    The lock system shall have a voltage source |
+|HL01     |    There shall be a  ultrasonic distance sensor  | 
+|HL02     |    There shall be a motor        |
+|HL03     |    There shall be LEDs to indicate the water level   |
+|HL04     |    There shall be a potentiometer to use as analog input for sensor  |
 
 **LOW LEVEL REQUIREMENT**
--
+
 |Test ID   |  Description | 
 ------------------|-------------------
-|LL01     | According to the value of password, the light should be controlled |
-|LL02     | The display shall display if the password is correct or not|
-|LL03     | The voltage source should provide a constant voltage |
+|LL01     | According to the level of water the sensor shall detect the distance from the water  |
+|LL02     | When the water level reaches the maximum value, the motor shall turn off automatically to avoid overflowing|
+|LL03     | There shall be two LEDs(Green and Red LEDs prefarebly) to indicate if the water level is full or not. Green shall indicate not full. Red shall indicate full. |
