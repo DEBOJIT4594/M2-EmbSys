@@ -100,7 +100,8 @@ __STRENGTHS__
 
 **BLOCK DIAGRAM**
 
-![PASSWORD PROTECTED](https://user-images.githubusercontent.com/98827063/155761202-bf55b4eb-4ee6-410e-8744-81568326279f.jpg)
+![block diagram](https://user-images.githubusercontent.com/98827063/157061684-89b58c73-e15f-46a7-adb8-5c5a8990cf88.jpg)
+
 
 **CIRCUIT DESIGN**
 
