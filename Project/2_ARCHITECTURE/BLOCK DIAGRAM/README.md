@@ -1,4 +1,5 @@
 **BLOCK DIAGRAM**
 =================
 
-![PASSWORD PROTECTED](https://user-images.githubusercontent.com/98827063/155761202-bf55b4eb-4ee6-410e-8744-81568326279f.jpg)
+![block diagram](https://user-images.githubusercontent.com/98827063/157079434-72483255-6544-4265-a93f-928b45a836b4.jpg)
+
