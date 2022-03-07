@@ -91,7 +91,8 @@ __STRENGTHS__
 --
 **BEHAVIOURAL DIAGRAM**
 
-![password flowchat](https://user-images.githubusercontent.com/98827063/155831933-b96e3068-270e-459c-82c8-17366a574897.jpg)
+![FLOWCHAT_AWC](https://user-images.githubusercontent.com/98827063/157051954-bcc73cb9-d051-4472-9b29-1d4ab4597233.jpg)
+
 
 **STRUCTURAL DIAGRAM**
 
