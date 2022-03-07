@@ -1,4 +1,4 @@
 
 **BEHAVIORAL DIAGRAM**
 =====================
-![password flowchat](https://user-images.githubusercontent.com/98827063/155833630-ec447029-1d78-465a-ae6a-bd3aab8ff397.jpg)
+![FLOWCHAT_AWC](https://user-images.githubusercontent.com/98827063/157079231-9fedde93-4022-427f-95f4-fdf8bfe62615.jpg)
