@@ -96,7 +96,8 @@ __STRENGTHS__
 
 **STRUCTURAL DIAGRAM**
 
-![STRUCTURAL DIAGRAM](https://user-images.githubusercontent.com/98827063/155833318-6aca2dd6-0fa7-4f78-9fc4-e2459e862fb2.jpg)
+![STRUCTURAL_DIAGRAM](https://user-images.githubusercontent.com/98827063/157078746-f88b922f-0cc4-4e95-81b0-658a4081147e.jpg)
+
 
 **BLOCK DIAGRAM**
 
