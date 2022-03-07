@@ -1,3 +1,4 @@
 **STRUCTURAL DIAGRAM**
 ======
-![STRUCTURAL DIAGRAM](https://user-images.githubusercontent.com/98827063/155833686-599ec103-9b67-459c-b297-600b9dddf52d.jpg)
+![STRUCTURAL_DIAGRAM](https://user-images.githubusercontent.com/98827063/157079917-ec2f9120-c8dc-4751-8078-f972faa9d1fe.jpg)
+
