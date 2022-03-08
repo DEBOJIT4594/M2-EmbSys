@@ -20,8 +20,8 @@
 |   03    | Motor above fix point when potentiometer output is 1.085V                    | PWM Signal                         | Motor starts       | Motor starts    | Pass     |
 |   04    | Motor below fix point when potentiometer output is 865mV                     | PWM Signal                         | Motor stops        | Motor stops     | Pass     |
 |   05    | Red Led should not glow below fix point when potentiometer output is 700mV   | Current from microcontroller       | Do not glows       | Do not glows    | Pass     |
-|   06    | Red Led should glow above fix point when potentiometer output is 1.100V      | Voltage = 1.100V                   | Glows              | Glows           | Pass     |
-|   07    | Green Led should not glow above fix point when potentiometer output is 1.100V| Voltage = 1.100V                   | Do not glows       | Do not glows    | Pass     |
-|   08    | Green Led should glow below fix point when potentiometer output is 865mV     | Voltage = 865mV                    | Glows              | Glows           | Pass     |
+|   06    | Red Led should glow above fix point when potentiometer output is 1.100V      | Current from microcontroller       | Glows              | Glows           | Pass     |
+|   07    | Green Led should not glow above fix point when potentiometer output is 1.100V| Current from microcontroller       | Do not glows       | Do not glows    | Pass     |
+|   08    | Green Led should glow below fix point when potentiometer output is 865mV     | Current from microcontroller       | Glows              | Glows           | Pass     |
 |   09    | Potentiometer                                                                |  5V                                | 1.100V             | 1.100V          | Pass     |
 |   10    | Potentiometer                                                                |  5V                                | 680mV              | 680mV           | Pass     |
