@@ -1,149 +1,171 @@
-**PASSWORD BASED DEVICE CONTROL**
-=================
-Table of Contents
-=================
+**AUTOMATIC WATER CONTROLLER** 
+====================
 
 **ABSTRACT**
--
-In todays world, protection of devices is very important. It could be an electrical device or electronic device. There are many ways a device can be protected. Out of which one way is to protect the device with a password. This is the simplest way to protect a device. This devices are much needed now a days. Bank, vehicles, homes, it can be used at different places whenever needed. Its funtionality could be increased by adding gsm modules or any other module or functional components.
+--
+Water is very precious for living beings and scarcity of the same is gradually increasing. Most of the cities in the country and that of the world are facing this problem. Hence, it is of utmost importance to preserve and save water. In many houses there exists unnecessary wastage of water due to overflow from overhead tanks etc. **Automatic Water Level Controller** can provide a solution to this problem.
+
 
 **INTRODUCTION**
--
-Password based device control is a lock system is use to control electric devices as well electronic devices with password protection. Here the person can control many domestic appliances like fan, light, tv, etc. The person can on and off the devices by giving password through keypad. This is very useful to protect devices.
+--
+The **Automatic Water Level Controller** is a solution to the problem of water scarcity. In this project a microcontroller is used and it is an **Arduino Uno**. The project also consist of various components such as LEDs to indicate if the water is has reached a fix point or not. A servo motor has been used in the project .  An ultrasonic distance sensor has been used here to measure the distance and a potentiometer has been used to give analog input to the sensor.
 
 **FEATURES**
 --
 
-1) The lock system have a LCD display.
-2) It also have a keypad to enter password.
-3) A LED is connected as a device to be protected by password.
-4) It runs on external power supply.
-5) Easy to use as it is not complicated.
+1) It is easy to install
+2) It easy to use 
+3) Low maintenance required
+4) It functions automatically
+5) It saves energy by automatically turning off the motor when the tank is full.
 
 **REQUIREMENTS**
--
-
+--
 
 **HIGH LEVEL REQUIREMENT**
--
+
 |Test ID  |    Description  |  
 -------------|-----------------------------------
-|HL01     |    A password shall be provided for our system | 
-|HL02     |    The lock system shall have a display       |
-|HL03     |    The lock system shall have a LED   |
-|HL04     |    The lock system shall have a relay  |
-|HL05     |    The lock system shall have a relay controller |
-|HL06     |    The lock system shall have a voltage source |
+|HL01     |    There shall be a  ultrasonic distance sensor  | 
+|HL02     |    There shall be a motor        |
+|HL03     |    There shall be LEDs to indicate the water level   |
+|HL04     |    There shall be a potentiometer to use as analog input for sensor  |
 
 **LOW LEVEL REQUIREMENT**
--
+
 |Test ID   |  Description | 
 ------------------|-------------------
-|LL01     | According to the value of password, the light should be controlled |
-|LL02     | The display shall display if the password is correct or not|
-|LL03     | The voltage source should provide a constant voltage |
+|LL01     | According to the level of water the sensor shall detect the distance from the water  |
+|LL02     | When the water level reaches the maximum value, the motor shall turn off automatically to avoid overflowing|
+|LL03     | There shall be two LEDs(Green and Red LEDs prefarebly) to indicate if the water level is full or not. Green shall indicate not full. Red shall indicate full. |
 
 **SWOT ANALYSIS**
--
+--
+
 __STRENGTHS__
 
-- This lock system can be use to protect electric or electronic devices with a password.
+- This system can be used to save and preserve water.
 
 **WEAKNESSES**
 
-- Only one type of password is accepted of combination of 4 numbers. Example - 6754.  
+- It has limited uses only.  
 
 **OPPORTUNITIES**
 
-- This can be used in households and in many places especially in bank. This can be used for door locking, in vehicles. It is less costly also. 
+- The components are easily available and easy to install. The system can be used in any household whenever needed. 
 
 **THREATS**
 
-- It needs constant voltage. Without this, the device wont work.
+- Development in this field is slow.
 
 
 **5W's & 1H**
--
+--
 
 **WHO**
 
- - This lock system is purely made for those people who want to password protect any device.
+- People will use this system. 
  
- **WHAT**
+**WHAT**
  
- - This is a lock system which is use to protect electrical and electronics appliances.
+- It is a system which saves and preserve water.
  
- **WHEN**
+**WHEN**
  
- - This lock system can be used at anytime untill and unless there is a constant power supply.
+- Whenever the water level drops below a certain level, the Automatic Water Controller switch the motor on and shuts the motor off when rises well above a fixed level.
  
  **WHERE**
  
- - It can be use in electrical and electronics devices.
+ - It can be install in homes, hotels, hospitals, public places, etc.
 
 **WHY**
 
-- Just to protect electrical and electronics devices.
+- To save and preserve water.
 
 **HOW**
 
-- Using keypad, this lock system can be used.
+- This is a system which automatically control a motor to ensure a constant reserve of water.
 
 
 **ARCHITECTURE**
--
+--
+**BEHAVIOURAL DIAGRAM**
+
+![FLOWCHAT_AWC](https://user-images.githubusercontent.com/98827063/157051954-bcc73cb9-d051-4472-9b29-1d4ab4597233.jpg)
+
+
+**STRUCTURAL DIAGRAM**
+
+![STRUCTURAL_DIAGRAM](https://user-images.githubusercontent.com/98827063/157078746-f88b922f-0cc4-4e95-81b0-658a4081147e.jpg)
+
 
 **BLOCK DIAGRAM**
--
 
-![PASSWORD PROTECTED](https://user-images.githubusercontent.com/98827063/155761202-bf55b4eb-4ee6-410e-8744-81568326279f.jpg)
+![block diagram](https://user-images.githubusercontent.com/98827063/157061684-89b58c73-e15f-46a7-adb8-5c5a8990cf88.jpg)
+
 
 **CIRCUIT DESIGN**
--
 
-![DESIGN](https://user-images.githubusercontent.com/98827063/155775580-4ed4fc77-7db1-44cd-aefd-8fbdb4f0334e.jpg)
+![autowatcont](https://user-images.githubusercontent.com/98827063/157216742-c088bc45-83c9-4b49-b40b-2a7f7f3bfc59.jpg)
+
+
 
 **COMPONENTS**
--
+--
 
 **1.	MICROCONTROLLER**
 
 _A microcontroller is needed to perform all the important operations so that the projector works fine._
 
 
-**2.	KEYPAD**
+**2.	SERVO MOTOR**
 
-_A component which is use to enter numbers._
-
-
-**3.	LCD DISPLAY**
-
-_LCD display is used to display the number that we have press and to show if the device has been successfully unlocked or not._
+_It is use to control the flow of water._
 
 
-**4.	LED**
+**3.	ULTRASONIC DISTANCE SENSOR**
 
-_LED is a small bulb which has been protected by a password._
+_It is used to sense the distance between itself and the surface of water._
 
 
-**5.	RELAY**
+**4.	LEDs**
 
-_It is a electrically operated  switch to controll the device_
+_LEDs are used to indicate the water level. If the water has crossed the upper limit, green LED will glow. If the water goes below the lower limit, red light will glow.  ._
+
+
+**5.	POTENTIOMETER**
+
+_It is used in place of water to give the sensor the analog input by adjusting it_
 
 
 **6.	VOLTAGE SOURCE**
 
-_A source which supplies a constant voltage whenever there is power._
+_It is used to give power to the motor and potentiometer._
+
+**7.	GROUND**
+
+_Grounding is used to protect the equipments._
+
+**RESULTS**
+---
+
+**WHEN V<=1.000V, GREEN LED GLOWS**
+
+![below limit](https://user-images.githubusercontent.com/98827063/157216440-c6a54892-0dd2-43d3-8678-e9e8117464a8.jpg)
+
+**WHEN V>1.000V, RED LED GLOWS**
+
+![ABOVE LIMIT](https://user-images.githubusercontent.com/98827063/157216627-a508d114-1c6d-41ab-9d9f-30d2b7f92e43.jpg)
 
 
-**7.	RELAY DRIVER**
 
-_It is used to interfece the bulb._
 
 **APPLICATIONS**
--
+--
 
-1.	 This lock system can be used to protect electrical and electronic devices such as light, fan, etc.
-2.	 This lock system can be used in  bank to protect lockers.
-3.	 This lock system can be used in cars to lock doors with password.
+1.	 It can be used in water tanks to control water level.
+2.	 It can be used in factories, commercial complexes, apartments, homes, etc.
+3.	 Oil tank level control.
+4.	 Sea level monitoring.
+5.	 Irrigation control.
 
