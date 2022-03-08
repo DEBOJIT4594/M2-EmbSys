@@ -106,7 +106,8 @@ __STRENGTHS__
 
 **CIRCUIT DESIGN**
 
-![autowatcont](https://user-images.githubusercontent.com/98827063/157041623-2d4f0fa5-e0e8-43ac-81dd-9f361ba988d4.jpg)
+![autowatcont](https://user-images.githubusercontent.com/98827063/157216742-c088bc45-83c9-4b49-b40b-2a7f7f3bfc59.jpg)
+
 
 
 **COMPONENTS**
@@ -144,6 +145,20 @@ _It is used to give power to the motor and potentiometer._
 **7.	GROUND**
 
 _Grounding is used to protect the equipments._
+
+**RESULTS**
+---
+
+**WHEN V<=1.000V, GREEN LED GLOWS**
+
+![below limit](https://user-images.githubusercontent.com/98827063/157216440-c6a54892-0dd2-43d3-8678-e9e8117464a8.jpg)
+
+**WHEN V>1.000V, RED LED GLOWS**
+
+![ABOVE LIMIT](https://user-images.githubusercontent.com/98827063/157216627-a508d114-1c6d-41ab-9d9f-30d2b7f92e43.jpg)
+
+
+
 
 **APPLICATIONS**
 --
