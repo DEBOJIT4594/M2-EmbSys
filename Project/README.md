@@ -1,6 +1,6 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/97ae6d8938854ce68211f9ae1d962b79)](https://www.codacy.com/gh/DEBOJIT4594/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DEBOJIT4594/M2-EmbSys&amp;utm_campaign=Badge_Grade)
 
-**AUTOMATIC WATER CONTROLLER** 
+**AUTOMATIC WATER LEVEL CONTROLLER** 
 ====================
 
 **ABSTRACT**
