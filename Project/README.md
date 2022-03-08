@@ -207,5 +207,5 @@ _Grounding is used to protect the equipments._
 --
 
 1) B. N. Getu and H. A. Attia, "Automatic water level sensor and controller system," 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818550.
-2) 
+
 3) Hudedmani, Mallikarjun & N, Nagaraj & J, Shrikanth & sha, Ali & G, Pramod. (2018). Flexible Automatic Water Level Controller and Indicator.
